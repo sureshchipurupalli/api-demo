@@ -3,11 +3,12 @@ class ApplicationController < ActionController::Base
   protect_from_forgery :with => :null_session
 
   # Whenever an AccessDenied is raised based on the current ability, respond with 401
+  #integration of can can gem
   rescue_from CanCan::AccessDenied do |exception|
     head 401
   end
 
-  # Retrieve current user
+  # Retrieve current user to use
   def current_user
     @current_user ||= resolve_user_by_token
   end
