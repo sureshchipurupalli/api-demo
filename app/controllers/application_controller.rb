@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
     head 401
   end
 
-  # Retrieve current user
+  # Retrieve current user to use
   def current_user
     @current_user ||= resolve_user_by_token
   end
