@@ -19,6 +19,7 @@ class ApplicationController < ActionController::Base
 
   private
    #we can also use protected here
+   #learning the git
   # Retrieve user from the current authentication token
   def resolve_user_by_token
     token = AuthenticationToken.find_by_token(current_authentication_token) 
