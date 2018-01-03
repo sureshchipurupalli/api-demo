@@ -30,4 +30,8 @@ end
 
 
 #end of the controller in app
+
 #another new line for git
+
+#a line to see the conflict of lines
+
