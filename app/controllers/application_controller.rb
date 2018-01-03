@@ -29,4 +29,4 @@ class ApplicationController < ActionController::Base
 end
 
 
-#end of the controller
+#end of the controller in app
