@@ -26,3 +26,6 @@ class ApplicationController < ActionController::Base
     token.try(:user)
   end
 end
+
+
+#end of the controller
