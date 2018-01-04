@@ -19,3 +19,5 @@ class User < ActiveRecord::Base
 end
 
 #issue 51 working
+
+#issue 51 still working
