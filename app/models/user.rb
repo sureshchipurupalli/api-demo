@@ -21,3 +21,6 @@ end
 #issue 51 working
 
 #issue 51 still working
+
+
+#fixed the issue 51
