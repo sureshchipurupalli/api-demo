@@ -23,3 +23,8 @@ class CatEntry < ActiveRecord::Base
   scope :lost, -> { where(:entry_type => :lost) }
   scope :resolved, -> { unscoped.where(:resolved => true) }
 end
+
+
+#hot fix working on hotffix branch
+
+#still hot fix working on hotffix branch
