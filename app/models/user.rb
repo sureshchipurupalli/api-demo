@@ -17,3 +17,5 @@ class User < ActiveRecord::Base
     authentication_tokens.build(:token => SecureRandom.uuid)
   end
 end
+
+#issue 51 working
