@@ -29,16 +29,5 @@ class ApplicationController < ActionController::Base
 end
 
 
-#end of the controller in app
-
-#another new line for git
-
-#a line to see the conflict of lines
-
-
-#changes in 471 in application
-
-
-#changes in 407 in application
-
+#local commit 1
 
